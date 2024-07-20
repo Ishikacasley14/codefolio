@@ -1,15 +1,14 @@
-
-import  style from './App.module.css'
-import Navbar from './components/Navbar'
+import style from "./App.module.css";
+import Hero from "./components/Hero/Hero";
+import Navbar from "./components/Navbar";
 
 function App() {
-  
-
   return (
     <div className={style.App}>
-      <Navbar/>
-    </div >
-  )
+      <Navbar />
+      <Hero />
+    </div>
+  );
 }
 
-export default App
+export default App;
